@@ -38,12 +38,9 @@ public class FrameActor {
 	
 	@Column(nullable = false, updatable = false)
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date date_created;
+	private Date dateCreated;
 	
 	@Column(nullable = false)
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date date_modifed;
-	
-	
-
+	private Date dateModified;
 }
